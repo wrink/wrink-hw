@@ -1,0 +1,29 @@
+# KiCad: lock files, local state, caches, backups
+*.lck
+.history/
+*-backups/
+fp-info-cache
+*.kicad_prl
+*-bak
+_autosave-*
+
+# Tool output (DRC reports, renders, plugin output)
+*_drc_violations.json
+drc_report.txt
+*_2d_view.*
+fab/
+production/
+
+# log files
+download.log
+
+# Fabrication output: regenerate with rpi-nrf52840-hat/generate_gerber.sh.
+# To record what was actually ordered: git add -f rpi-nrf52840-hat/gerber/  and tag the commit.
+gerber/
+
+# Python (populate_jlc_library)
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
