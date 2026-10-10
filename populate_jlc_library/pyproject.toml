@@ -4,14 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "populate-jlc-library"
-version = "0.1.0"
-description = "Download JLCPCB/EasyEDA footprints and 3D models for the LCSC parts in a KiCad schematic into a local library"
+version = "0.2.0"
+description = "JLCPCB tools for KiCad projects: download EasyEDA footprints for the LCSC parts in a schematic, and generate gerbers, BOM and placement files for an order"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = ["easyeda2kicad>=0.8.0"]
 
 [project.scripts]
 populate-jlc-library = "populate_jlc_library.cli:main"
+jlcpcb-fab = "populate_jlc_library.fab_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,3 +1,26 @@
+# JLCPCB tools for KiCad
+
+Two commands, installed together:
+
+* [`populate-jlc-library`](#populate-jlc-library): download JLCPCB's own footprints for the parts in a schematic.
+* [`jlcpcb-fab`](#jlcpcb-fab): generate gerbers, drill files, BOM and placement file for a JLCPCB order.
+
+They work on any KiCad project; nothing is specific to one board. Typical flow: populate the library,
+use its footprints on the PCB, then run `jlcpcb-fab` when the board is done.
+
+## Install (in a virtual environment)
+
+From the repository root:
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -e populate_jlc_library      # also installs easyeda2kicad
+```
+
+With uv, `uv run --with-editable ./populate_jlc_library jlcpcb-fab` runs the current source
+without a rebuild (plain `--with ./populate_jlc_library` caches a built copy and can run stale code).
+
 # populate-jlc-library
 
 Download the JLCPCB/EasyEDA footprint (and 3D model) of every LCSC part used in a KiCad
@@ -9,16 +32,6 @@ per-part corrections (this is what causes "the module is offset in the placement
 
 ```
 schematic (.kicad_sch / .kicad_pro) -> LCSC numbers -> easyeda2kicad -> jlcpcb-lib/jlcpcb.pretty
-```
-
-## Install (in a virtual environment)
-
-From the repository root:
-
-```sh
-python3 -m venv .venv
-. .venv/bin/activate
-pip install -e populate_jlc_library      # also installs easyeda2kicad
 ```
 
 ## Use
@@ -59,10 +72,48 @@ Notes:
 * Network access to `easyeda.com` is needed; the tool is a thin wrapper around
   [easyeda2kicad](https://github.com/uPesy/easyeda2kicad).
 
+# jlcpcb-fab
+
+Everything needed to order a board: run it when the PCB is finished.
+
+```sh
+jlcpcb-fab                                         # every project in the git repository you are in
+jlcpcb-fab rpi-nrf52840-hat                        # a project directory, .kicad_pro or .kicad_sch
+jlcpcb-fab board/board.kicad_pro -o /tmp/order     # other output directory (single project only)
+jlcpcb-fab --skip-drc                              # do not run DRC
+```
+
+Output goes to `<project dir>/gerber/` (git-ignore it, or `git add -f` it to record an order):
+
+| File | Content |
+|---|---|
+| `<name>-<layer>.g*` | gerbers: copper, mask, paste, silkscreen, edge cuts |
+| `<name>-PTH.drl`, `-NPTH.drl` | drill files (plated and non-plated separate), plus PDF maps |
+| `<name>_gerbers.zip` | gerbers and drill files: upload as "PCB" |
+| `<name>_bom_jlcpcb.csv` | BOM with JLCPCB's column names |
+| `<name>_cpl_jlcpcb.csv` | placement file with JLCPCB's column names |
+
+What it does, in order: refuses if KiCad has the board open (`--force` overrides); runs DRC
+(refills zones, **saves the board**, checks schematic parity; any error or warning stops the run,
+violations you excluded in KiCad are respected); plots gerbers and drill files; zips them; builds
+BOM and CPL. All of it happens in a temporary directory and the files of this board in the output
+directory are only replaced when every step worked, so a failed run leaves the previous order files
+alone. Other files in the directory are never touched.
+
+* **Through-hole parts** (found as "in the position export but not SMD") are left out of the BOM and
+  CPL: it assumes you order and solder them yourself. They are listed in the output.
+* **No placement corrections.** KiCad's position and rotation are written as they are, which matches
+  JLCPCB when the footprints are JLCPCB's own (use `populate-jlc-library` for that). If a part is
+  rotated or offset in JLCPCB's placement preview, the footprint differs from JLCPCB's.
+* BOM lines without an LCSC number are reported as warnings.
+* Needs `kicad-cli` (KiCad 7 or later; developed against 10.0) in `PATH`. Exit code: 0 ok, 1 a step
+  failed, 2 bad input.
+
 ## Develop
 
 ```sh
 python -m unittest discover -s populate_jlc_library/tests -v
 ```
-The tests use a stand-in for `easyeda2kicad` (`tests/stub_easyeda2kicad.py`), selected through the
-`POPULATE_JLC_EASYEDA2KICAD` environment variable, so they need no network.
+The tests use stand-ins for `easyeda2kicad` (`tests/stub_easyeda2kicad.py`, selected through
+`POPULATE_JLC_EASYEDA2KICAD`) and for `kicad-cli` (`tests/stub_kicad_cli.py`, selected through
+`POPULATE_JLC_KICAD_CLI`), so they need neither network nor KiCad.

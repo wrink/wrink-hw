@@ -1,3 +1,3 @@
-"""Populate a local KiCad footprint library from the LCSC parts used in a schematic."""
+"""JLCPCB tools for KiCad projects: footprint library download (populate-jlc-library) and order files (jlcpcb-fab)."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
