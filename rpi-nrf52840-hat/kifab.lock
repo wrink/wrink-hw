@@ -1,0 +1,271 @@
+# kifab.lock: vendored parts and their file hashes. Written by kifab; do not edit.
+
+version = 2
+
+[[part]]
+id = "C1647"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["CL10C180JB8NNNC"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/C0603.kicad_mod",
+]
+
+[[part]]
+id = "C18723546"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["24C32BN"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL.kicad_mod",
+]
+
+[[part]]
+id = "C19725278"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["HDGCPH2.54-PZS-2X20"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/HDR-TH_40P-P2.54-V-F-R2-C20-S2.54.kicad_mod",
+]
+
+[[part]]
+id = "C20416422"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["TCC0805X7R475K500FT"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/C0805.kicad_mod",
+]
+
+[[part]]
+id = "C23138"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["0603WAF3300T5E"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/R0603.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/R0603.kicad_mod",
+]
+
+[[part]]
+id = "C23162"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["0603WAF4701T5E"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/R0603.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/R0603.kicad_mod",
+]
+
+[[part]]
+id = "C356849"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["E73-2G4M08S1C"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/WIRELM-SMD_E73-2G4M08S1C.kicad_mod",
+]
+
+[[part]]
+id = "C41413841"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["A254UP-ZS04P"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_8P-P2.54-M-LI-2X4P.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_8P-P2.54-M-LI-2X4P.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/HDR-TH_8P-P2.54-V-M-R2-C4-S2.54.kicad_mod",
+]
+
+[[part]]
+id = "C7462182"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["CC7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/CRYSTAL-SMD_L3.2-W1.5-1.kicad_mod",
+]
+
+[[part]]
+id = "C7496855"
+library_source = "easyeda"
+source = "easyeda2kicad 1.0.1"
+symbols = ["F.1615.00026_P4-1615G2B2R4TS2-06T-001-24"]
+files = [
+    "lib/jlcpcb/jlcpcb.3dshapes/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.step",
+    "lib/jlcpcb/jlcpcb.3dshapes/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.wrl",
+    "lib/jlcpcb/jlcpcb.pretty/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.kicad_mod",
+]
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.step"
+sha256 = "f9918dd3888f5ca8b9c906b8cb10b9d8e335f6855513b3e235a18123ae353a78"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
+sha256 = "125791465c37d0e6cda3b2f45f84e01af226d81a462bfbecb7a4513327e9f22a"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.step"
+sha256 = "99acc6b12df8e17000d6e7529bddac9ea44e1240f5635482742aae256f49b5df"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+sha256 = "31b2ac9a40994188ebd20202214e75f004b604b0068b3dea50d8cf7940cadb1a"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.step"
+sha256 = "21800010a00cdef32d847b70a89655972a4cacd64ce78fe15f7fa18c55d7cc37"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.wrl"
+sha256 = "cd16719816744d08f7d85b5f0151cf69571f39d02229c81a458c9dfee1197c34"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.step"
+sha256 = "ff053e4d7308bf69608faca99f7893b9eb1c739a89d49d4a8613ada15210727b"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.wrl"
+sha256 = "af528477b88fda166128b2e056d87d66b2f7bfc1f3e12f27641c046320b0a1be"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_8P-P2.54-M-LI-2X4P.step"
+sha256 = "4e6551566867d8bc44ee1a51b2ce826d418b7a1967aca6b615bc2b03a7fc42a0"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/HDR-TH_8P-P2.54-M-LI-2X4P.wrl"
+sha256 = "da77d614abc77c8269e5a15700e865925cfabd9c61b95ed399cbec92bbb1412e"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.step"
+sha256 = "fb1bf682059c04453953e64f8dd86bae94158432c8e34ff1c00e8e4f9d63a89b"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.wrl"
+sha256 = "818f6704a9b998a26de4fcbc9a39aa1a74b282658750a554857f208002e8deb4"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/R0603.step"
+sha256 = "e52f17888a8c6c2cb8d56dccf25e2ed131a12a241311657622543c405e42826c"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
+sha256 = "2a125409502d8eb68f2e196ab1c28b180e0918830445364f93a45d9461b4daad"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.step"
+sha256 = "d884c2b3aaea7f93dde52659d3b88cce8b014086c464e36fddcea84c6080f51c"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+sha256 = "fe4ef1a9336492aea0ceba62d840c2783ac2bdc0a1dcbdd1ed25f172188421e1"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.step"
+sha256 = "5e643e50891a8ce2f8fbe40ee6812f0f501ff5ba57c1509f8d70ab11ee270037"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.wrl"
+sha256 = "afb1928ceb16d82451d2ee9891b48b51680bb4b3a58f8f3426f7de6064d00a72"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/C0603.kicad_mod"
+sha256 = "834d0f647140d7cff33269d6777f9cb522d4398838f0bfe568c5b423e0fb37fa"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/C0805.kicad_mod"
+sha256 = "a6f853244030236ca54b073dde68c98e28fa78f5bbfef8a15c4fe9e7f2b6559d"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/CRYSTAL-SMD_L3.2-W1.5-1.kicad_mod"
+sha256 = "1cb6245f54e2507d43006d360c86d352e37c31507afcc8fadc58ad2d62f6a87b"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/HDR-TH_40P-P2.54-V-F-R2-C20-S2.54.kicad_mod"
+sha256 = "73f4baaf6648774013df9342166143488620d9b53561dd2c9a8741bcef182df7"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/HDR-TH_8P-P2.54-V-M-R2-C4-S2.54.kicad_mod"
+sha256 = "1cb1e26d188458643747215736d8bef78819d41126998ef3a8f6c5a88d8df826"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/LED-SMD_4P-L1.6-W1.5_P4-1615G2B2R4TS2-06T-001-24.kicad_mod"
+sha256 = "fc873e174c28fe570a189e288a3a49b1c7d7f97ac6f46e75af3a71986d48f7ad"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/R0603.kicad_mod"
+sha256 = "48b7e7870588bc968baf001d14c16e0be490dd629d365c0ff052ed88768412bc"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL.kicad_mod"
+sha256 = "21e1a1cc3a2014b7f2c62471801b4a8d5e24bb1ace2b565bae236121b3e4585c"
+
+[[file]]
+path = "lib/jlcpcb/jlcpcb.pretty/WIRELM-SMD_E73-2G4M08S1C.kicad_mod"
+sha256 = "3d7951a4a4b2483ca5cbfc0bfb023531db5764b5b6b2724d28856a540555dd1d"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "0603WAF3300T5E"
+sha256 = "699cc3a6f3218048d30a8e509e6775c8e9535bd5ff2fab73d26d3776830bacdc"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "0603WAF4701T5E"
+sha256 = "62407801043bec3fe02105aea297a6026570858e1c7766f3ae455d0b27c87244"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "24C32BN"
+sha256 = "a8d5bc49ae1390d147af76000bac669d36bc3df0fde179dbc2433132198a1171"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "A254UP-ZS04P"
+sha256 = "f14e8487212e0afd24878f1d4a00034d6d74f9642c9d84e48297b58fdd89ff44"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "CC7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC"
+sha256 = "6a627228e1bbd699e4b74315e56969864c037085faa077d50259586645dacf56"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "CL10C180JB8NNNC"
+sha256 = "e071aa21e41fd22dac5a614603f11f0d6d17155c08f7f3d74d7bc9be05936137"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "E73-2G4M08S1C"
+sha256 = "080f84d0540017dd0f9f0eececa608d99cad9b99d5d9035b2596236e9a60c0b5"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "F.1615.00026_P4-1615G2B2R4TS2-06T-001-24"
+sha256 = "1195d75ae8968bd8784cc7264860cd51353fd6964f6d83fd82c67816d5b5d04c"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "HDGCPH2.54-PZS-2X20"
+sha256 = "99565b7d223969c2ad865d75cc739cf17b49d4eef52a99fa203adbd265e01233"
+
+[[symbol]]
+library = "lib/jlcpcb/jlcpcb.kicad_sym"
+name = "TCC0805X7R475K500FT"
+sha256 = "4a7ba1fa6df2f4aa23ae4abf976b77736e3138487660e2b60f22f84e80e221b8"

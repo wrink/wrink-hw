@@ -1,0 +1,14 @@
+# kifab project configuration (https://github.com/pengi/kifab)
+
+fab = "jlcpcb"
+project = "rpi-nrf52840-hat"
+
+[board]
+layers = 2
+
+[rules]
+profile = "standard"
+relax_fab_footprint_silk = true
+
+[bundle]
+assemble_through_hole = false

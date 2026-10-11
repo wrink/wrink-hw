@@ -1,0 +1,18 @@
+# >>> kifab (managed block: kifab rewrites it; add your own lines outside)
+build/
+kifab-backups/
+*-backups/
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*-bak
+*.bak
+\#auto_saved_files#
+.history/
+*-save.kicad_pcb
+*-save.kicad_sch
+*-drc.json
+*-erc.json
+# <<< kifab

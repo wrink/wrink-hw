@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "kifab")(type "KiCad")(uri "${KIPRJMOD}/lib/kifab/kifab.kicad_sym")(options "")(descr "Basic symbols: power, ground, flags (shipped by kifab)"))
+	(lib (name "jlcpcb")(type "KiCad")(uri "${KIPRJMOD}/lib/jlcpcb/jlcpcb.kicad_sym")(options "")(descr "JLCPCB parts (vendored by kifab)"))
+	(lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/lib/project/project.kicad_sym")(options "")(descr "Project symbols"))
+)

@@ -371,7 +371,7 @@
 			(uuid "bcd4844f-c5d0-41fa-9028-159119926d4d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -383,7 +383,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "project:MountingHole_2.7mm_M2.5"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "0beff73c-ea66-46e4-96f9-c0c7195d2160")
@@ -713,7 +713,7 @@
 			(uuid "002e6a05-3393-4a94-887d-82fe4c856e6a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -957,7 +957,7 @@
 			(uuid "656bff90-3daf-4c7c-b145-cd098a52f202")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -969,7 +969,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+	(footprint "project:PinHeader_2x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "19b81f89-8f61-4d45-82b4-7212f6edd5ad")
 		(at 110 72.81 180)
@@ -1298,7 +1298,7 @@
 			(uuid "452fb0b7-365e-4365-8e88-4518bf2ed9e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/project/project.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1542,7 +1542,7 @@
 			(uuid "2379d3c9-9120-4a83-ab44-18b490b7bea6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1851,7 +1851,7 @@
 			(uuid "7528ea7b-f2ce-4acd-84d2-d8ef72264da0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2210,7 +2210,7 @@
 			(uuid "dfa0976c-b5e9-4e51-be42-68bbb57df6f2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3171,7 +3171,7 @@
 			(uuid "8375d910-7214-4420-b186-2f46a604c179")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/WIRELM-SMD_L18.0-W13.0-H3.0-E73-2G4M08S1C.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3183,7 +3183,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+	(footprint "project:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2f43e8b4-0213-48aa-a24d-a1845f9f7871")
 		(at 147 59.5)
@@ -3389,7 +3389,7 @@
 			(uuid "7e4f3836-8b5f-43b2-874b-17555551d711")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/project/project.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3633,7 +3633,7 @@
 			(uuid "e5812066-1649-48f2-b19f-352377f1bf0d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3877,7 +3877,7 @@
 			(uuid "3e9bb140-07ed-4206-ac65-33d841d65280")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4236,7 +4236,7 @@
 			(uuid "226e1bb7-33a4-4d05-ad71-942256345981")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4480,7 +4480,7 @@
 			(uuid "9b09d87a-8e68-45ba-b14f-afeadf727c03")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4840,7 +4840,7 @@
 			(uuid "eab05e84-e41f-409c-8c60-801e9c18b62a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5084,7 +5084,7 @@
 			(uuid "5fbcded2-d6a7-4f30-a5d6-97177d299fcc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5096,7 +5096,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+	(footprint "project:PinHeader_2x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7ce017bb-3d4b-4120-b091-367af1a2eafb")
 		(at 118.5 56.54 90)
@@ -5425,7 +5425,7 @@
 			(uuid "bd6e12e2-026a-48d8-9493-c2ba82298ed3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/project/project.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5437,7 +5437,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "project:MountingHole_2.7mm_M2.5"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7e8d827e-a7ed-44d4-95fc-a91af7cef820")
@@ -5535,7 +5535,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "project:MountingHole_2.7mm_M2.5"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "89efe179-e83b-40db-abd4-3fc7739e57ac")
@@ -5633,7 +5633,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "rpi-nrf52840-hat:LED_RGB_1.6x1.5mm_CA_P4-1615"
+	(footprint "project:LED_RGB_1.6x1.5mm_CA_P4-1615"
 		(layer "F.Cu")
 		(uuid "99a740c0-11ce-497b-b273-f6514afa83a6")
 		(at 132.5 69 -90)
@@ -6041,7 +6041,7 @@
 			(uuid "5f4cd86a-7577-4d82-90d3-c651b67ab3b9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6285,7 +6285,7 @@
 			(uuid "ea401ce0-bcdd-499f-b9ff-ae8d0dc4561c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6630,7 +6630,7 @@
 			(uuid "ed1c7b4d-9d00-4e9f-be35-37e546b5d1f1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/CRYSTAL-SMD_L3.2-W1.5-1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6642,7 +6642,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+	(footprint "project:MountingHole_2.7mm_M2.5"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "c5d6c104-5680-4140-a821-8340078f5018")
@@ -6972,7 +6972,7 @@
 			(uuid "5876c787-5924-4c87-854a-3ab2d46ef7b6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7216,7 +7216,7 @@
 			(uuid "c6c98ee8-40fd-4392-88b2-a3aad5ac54c0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7460,7 +7460,7 @@
 			(uuid "b75c2d12-11c8-425b-b18c-8b75233ebb44")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7820,7 +7820,7 @@
 			(uuid "53d93726-0ac8-4072-9b81-7f95b87e4d07")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8064,7 +8064,7 @@
 			(uuid "82ffd7ea-df29-4ec7-b297-477df81a0582")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8308,7 +8308,7 @@
 			(uuid "54a6179b-6328-4f39-b037-097885d37633")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/jlcpcb-lib/jlcpcb.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/lib/jlcpcb/jlcpcb.3dshapes/R0603.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8320,7 +8320,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
+	(footprint "project:PinSocket_2x20_P2.54mm_Vertical"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005a793e9f")
 		(at 108.37 48.77 -90)
@@ -9038,7 +9038,7 @@
 			(uuid "11f30bf2-b375-4fa4-adb5-38418922f318")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/project/project.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
