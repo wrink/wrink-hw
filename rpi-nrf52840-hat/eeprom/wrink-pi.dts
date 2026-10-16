@@ -1,0 +1,69 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2711";
+
+    /* SPI0, CE0 only (GPIO8 as chip select) */
+    fragment@0 {
+        target = <&spi0_cs_pins>;
+        __overlay__ { brcm,pins = <8>; };
+    };
+    fragment@1 {
+        target = <&spi0>;
+        __overlay__ {
+            status = "okay";
+            cs-gpios = <&gpio 8 1>;
+        };
+    };
+    fragment@2 {
+        target = <&spidev0>;
+        __overlay__ {
+            status = "okay";
+            spi-max-frequency = <8000000>;   /* nRF52840 SPIS max */
+        };
+    };
+    fragment@3 {
+        target = <&spidev1>;
+        __overlay__ { status = "disabled"; };
+    };
+
+    /* UART5 on GPIO12/13, ALT4 */
+    fragment@4 {
+        target = <&uart5>;
+        __overlay__ {
+            pinctrl-names = "default";
+            pinctrl-0 = <&uart5_pins>;
+            status = "okay";
+        };
+    };
+    fragment@5 {
+        target = <&gpio>;
+        __overlay__ {
+            uart5_pins: uart5_pins {
+                brcm,pins = <12 13>;
+                brcm,function = <3>;     /* ALT4 */
+                brcm,pull = <2 2>;       /* up, up */
+            };
+        };
+    };
+
+    /* PPS and the wrink-pi description node */
+    fragment@6 {
+        target-path = "/";
+        __overlay__ {
+            pps {
+                compatible = "pps-gpio";
+                gpios = <&gpio 22 0>;    /* rising edge = assert; add "assert-falling-edge;" if needed */
+                status = "okay";
+            };
+            wrink-pi {
+                compatible = "wrink,wrink-pi";
+                nrf-int-gpios   = <&gpio 17 1>;   /* active low; flip to 0 if active high */
+                nrf-reset-gpios = <&gpio 6 1>;    /* active low */
+                swdio-gpios     = <&gpio 5 0>;
+                swclk-gpios     = <&gpio 25 0>;
+            };
+        };
+    };
+};

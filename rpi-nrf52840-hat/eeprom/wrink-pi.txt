@@ -1,0 +1,33 @@
+product_uuid f649fa56-d7ca-40ae-ac00-20300869bc12
+product_id   0x0001
+product_ver  0x0001
+vendor       "pengi"
+product      "wrink-pi"
+
+# GPIO bank 0 settings (required by the legacy V1 format)
+gpio_drive      0    # 0 = leave at default
+gpio_slew       0    # 0 = leave at default
+gpio_hysteresis 0    # 0 = leave at default
+back_power      0    # 0 = HAT does not back-power the Pi
+
+# UART5:
+# GPIO12 TX -> nRF P0.08
+# GPIO13 RX <- nRF P0.06
+
+setgpio 12 ALT4 UP
+setgpio 13 ALT4 UP
+
+# SPI0, CE0 only. MISO is pulled down because the nRF side is hi-Z when not selected
+setgpio 8  ALT0 UP       # CS -> P0.12
+setgpio 9  ALT0 DOWN     # MISO <- P0.15
+setgpio 10 ALT0 NONE     # MOSI -> P0.17
+setgpio 11 ALT0 NONE     # SCLK -> P0.13
+
+# nRF-driven signals, pulled down so they don't float before the nRF boots
+setgpio 17 INPUT UP      # SPI INT <- P0.05 (pull matches active-low in the .dts; polarity not decided yet)
+setgpio 22 INPUT DOWN    # PPS <- P0.20
+
+# SWD, plain inputs for userspace (OpenOCD) to claim
+setgpio 5  INPUT NONE    # SWDIO
+setgpio 25 INPUT NONE    # SWDCLK
+setgpio 6  INPUT UP      # nRESET: keep high so the nRF isn't held in reset at boot

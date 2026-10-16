@@ -16,3 +16,6 @@ _autosave-*
 *-drc.json
 *-erc.json
 # <<< kifab
+
+*.dtbo
+*.eep
